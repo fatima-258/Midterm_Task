@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Icon1 from "../../public/assets/Icon1.svg"
+import Icon2 from "../../public/assets/Icon2.svg"
+import Icon3 from "../../public/assets/Icon3.svg"
 
 const Navbar = () => {
 
@@ -25,12 +27,12 @@ const Navbar = () => {
                     <p className="font-inter font-[400px] text-[9px] text-[#717171] text-center">Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                 <div className="flex flex-col justify-center items-center col-span-1">
-                    <Image src={Icon1} alt="icon" />
+                    <Image src={Icon2} alt="icon" />
                     <p className="font-inter font-medium text-[19px] text-[#4D4D4D] text-center">National Associations</p>
                     <p className="font-inter font-[400px] text-[9px] text-[#717171] text-center">Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
                 <div className="flex flex-col justify-center items-center col-span-1">
-                    <Image src={Icon1} alt="icon" />
+                    <Image src={Icon3} alt="icon" />
                     <p className="font-inter font-medium text-[19px] text-[#4D4D4D] text-center">Clubs And Groups</p>
                     <p className="font-inter font-[400px] text-[9px] text-[#717171] text-center">Our membership management software provides full automation of membership renewals and payments</p>
                 </div>
